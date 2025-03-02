@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ASM">
+      <UniqueIdentifier>{79141575-fda6-42ac-a209-1a07e0547933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="capstone">
+      <UniqueIdentifier>{ad9ae9b6-c623-4bf7-80ea-58d978cf0614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="capstone\capstone">
+      <UniqueIdentifier>{64ed3d4d-993a-484e-acc1-2ac1cb7b0e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="capstone\windowsce">
+      <UniqueIdentifier>{9e73b38e-e4ff-43ec-a57b-b2989563b6f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Eclipse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="ASM\EclipseHandler_x64.asm">
+      <Filter>ASM</Filter>
+    </MASM>
+    <MASM Include="ASM\EclipseHandler_x86.asm">
+      <Filter>ASM</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Eclipse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\windowsce\intrin.h">
+      <Filter>capstone\windowsce</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\windowsce\stdint.h">
+      <Filter>capstone\windowsce</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\arm.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\arm64.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\capstone.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\evm.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\m68k.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\m680x.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\mips.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\platform.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\ppc.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\sparc.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\systemz.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\tms320c64x.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\x86.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\capstone\xcore.h">
+      <Filter>capstone\capstone</Filter>
+    </ClInclude>
+    <ClInclude Include="capstone\platform.h">
+      <Filter>capstone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
